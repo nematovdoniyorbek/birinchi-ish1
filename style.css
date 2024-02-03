@@ -1,1 +1,128 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: black;
+}
+.container .navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.container .navbar .ism {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+.container .navbar .ism img {
+  width: 70px;
+  height: 70px;
+}
+.container .navbar .ism span {
+  font-size: 30px;
+}
+.container .navbar .menu {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: blue;
+}
+.container .navbar .menu a {
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+.container .navbar .menu a:hover {
+  color: black;
+  background-color: blue;
+  box-shadow: 0px 0px 20px blue;
+}
+.container .asos {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+}
+.container .asos .yarm1 {
+  width: 50%;
+  height: 100%;
+}
+.container .asos .yarm1 span {
+  color: blue;
+}
+.container .asos .yarm1 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-left: 100px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 20px blue;
+}
+.container .asos .yarm1 .ism {
+  font-size: 50px;
+  padding-left: 100px;
+}
+.container .asos .yarm1 .frontend {
+  font-size: 50px;
+  padding-left: 100px;
+}
+.container .asos .yarm1 .icon {
+  margin-left: 100px;
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+.container .asos .yarm1 .yotobe {
+  width: 50px;
+  height: 50px;
+  margin-right: -100px;
+}
+.container .asos .yarm1 .insta {
+  width: 50px;
+  height: 50px;
+  margin-right: -100px;
+}
+.container .asos .yarm1 .rasm2 {
+  width: 50px;
+  height: 50px;
+  margin-right: -100px;
+}
+.container .asos .yarm1 .rasm {
+  width: 50px;
+  height: 50px;
+}
+.container .asos .yarm2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .asos .yarm2 .tortburchak .ichi {
+  width: 400px;
+  height: 200px;
+  display: flex;
+}
+.container .asos .yarm2 .tortburchak .ichi img {
+  width: 200px;
+  height: 200px;
+}
+.container .asos .yarm2 .tortburchak .ichi2 {
+  width: 400px;
+  height: 200px;
+  display: flex;
+}
+.container .asos .yarm2 .tortburchak .ichi2 img {
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */

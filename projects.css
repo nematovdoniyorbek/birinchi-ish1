@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.navbar .ism {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+.navbar .ism img {
+  width: 70px;
+  height: 70px;
+}
+.navbar .ism span {
+  font-size: 30px;
+}
+.navbar .menu {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: blue;
+}
+.navbar .menu a {
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+.navbar .menu a:hover {
+  color: black;
+  background-color: blue;
+}
+
+.yigma {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.yigma .birinchi {
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px blue;
+}
+.yigma .birinchi img {
+  width: 100%;
+  height: 50%;
+}
+.yigma .birinchi span {
+  font-size: 25px;
+  margin-left: 15px;
+  color: blue;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+.yigma .birinchi span:hover {
+  color: white;
+  transition: 0.2s;
+}
+.yigma .birinchi button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.yigma .birinchi .kirish {
+  width: 200px;
+  height: 40px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.yigma .birinchi .kirish:hover {
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
+}
+.yigma .ikkinchi {
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px blue;
+}
+.yigma .ikkinchi img {
+  width: 100%;
+  height: 50%;
+}
+.yigma .ikkinchi span {
+  font-size: 25px;
+  margin-left: 25px;
+  color: blue;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+.yigma .ikkinchi span:hover {
+  color: white;
+  transition: 0.2s;
+}
+.yigma .ikkinchi button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.yigma .ikkinchi .kirish {
+  width: 200px;
+  height: 40px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.yigma .ikkinchi .kirish:hover {
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
+}
+.yigma .uchinchi {
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px blue;
+}
+.yigma .uchinchi img {
+  width: 100%;
+  height: 50%;
+}
+.yigma .uchinchi span {
+  font-size: 25px;
+  margin-left: 60px;
+  color: blue;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+.yigma .uchinchi span:hover {
+  color: white;
+  transition: 0.2s;
+}
+.yigma .uchinchi button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.yigma .uchinchi .kirish {
+  width: 200px;
+  height: 40px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.yigma .uchinchi .kirish:hover {
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
+}
+.yigma .tortinchi {
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px blue;
+}
+.yigma .tortinchi img {
+  width: 100%;
+  height: 50%;
+}
+.yigma .tortinchi span {
+  font-size: 25px;
+  margin-left: 25px;
+  color: blue;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+.yigma .tortinchi span:hover {
+  color: white;
+  transition: 0.2s;
+}
+.yigma .tortinchi button {
+  width: 100px;
+  height: 30px;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.yigma .tortinchi .kirish {
+  width: 200px;
+  height: 40px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.yigma .tortinchi .kirish:hover {
+  color: white;
+  background-color: blue;
+  border: 2px solid white;
+}/*# sourceMappingURL=projects.css.map */
